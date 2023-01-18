@@ -1,0 +1,356 @@
+{
+	"info": {
+		"_postman_id": "d5a78105-9eb5-4977-b266-d81721f7b3cb",
+		"name": "book",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/api/books",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiOTVkMmJkMDZmODkwZjc0Y2MxNDBiMzNhYzg0ZWZlOTI2YTMzNTVmYWRmNGRiNGY4NzM4MzVhNTA3YzZiYmYyNTE5NTBhYTA0ZTQ0MDQ3ZmQiLCJpYXQiOjE2NzQwMjE0ODUuNjQ5MTg5LCJuYmYiOjE2NzQwMjE0ODUuNjQ5MjA0LCJleHAiOjE3MDU1NTc0ODUuMjM4NTE0LCJzdWIiOiI2Iiwic2NvcGVzIjpbXX0.08766bqb2JDR8WIx8Gyz6KZRq43N9ZskMx-kbHiMKFX7ot2idthi-o4cX59R8JwNCpFeBIUAKQeFEUGA3e0nuP4XEJV7xyrJwSE3mY5ZuFKqlZD5Nmg85DtFu9rNHULa2rBTHJTjhxEjRjxRVww5H_8eeszDLgZtDfNq3KnpsLNsik0A726LersmqbPeNlXjU_uwquT4rVvXq_n8wYvMBxfPEk9l0wZMX5xiqgcprTbsnqtkuMr_Ehc6WfAkIDVBh2AURUCRaQPcevn5gqG5BZ-_MzpVjl5_eIzqL81zifGTfZoZPYe12q_NI8R8QUb7ig_gix8Py18YID9Q47_t0guN5ZxJVlzMyJ8Y3-io9ShcOfVSAiTu3frxSIA77ATcGODOnqfEPPgs5XaZWYc_Wm7tUAXruyWRQ81qVLeZeGAMklbJzNDSxLIobLxMGQEXlmb7JOEeWeFBZrGL66VcHcoDFdku5t8ci3ckaPuqXYx5uX4Pj4N6LCQ0hD1mSCj5Mqu-kRMArVtcvIAdJimki653RlaP-mqWHyUogEFOCHVNgfADYRM98KTHC0KnvpLnNoNcnZK7g_9bqSlazLkKIp2PmqDn6C-e2ztpjmkK68cT8EB9FOF9dAJ_NF2ofNnVU5DDVzUpRLISJQLegMgzLNNNe7mpMPnYsDvLf_kjS7A",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer wxxB2hvOvGq557nzazzKpjx82rTuiUb4g9lsg1bd  ",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "kelvin cosmas",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "kevo93mushy@gmail.com",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "1234",
+							"type": "default"
+						},
+						{
+							"key": "c_password",
+							"value": "1234",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "role",
+							"value": "admin",
+							"type": "default",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"books"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8000/api/books",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "default"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer wxxB2hvOvGq557nzazzKpjx82rTuiUb4g9lsg1bd  ",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "kelvin cosmas",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "kevo93mushy@gmail.com",
+									"type": "default"
+								},
+								{
+									"key": "password",
+									"value": "1234",
+									"type": "default"
+								},
+								{
+									"key": "c_password",
+									"value": "1234",
+									"type": "default",
+									"disabled": true
+								},
+								{
+									"key": "role",
+									"value": "admin",
+									"type": "default",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/books",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"books"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8000/api/favourite",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiMmYzMGJkNmUyYjVjOWVkOWQ0MWJlNWZhZDdmMDVjZjZlMDkyYzkxZDY1Y2ZiZDJjODYwZTc3NDE4NGI3NTNiZjVkN2M1ZWZkNmMzZDA4YTMiLCJpYXQiOjE2NzQwMzAwNDguMjY0NjE2LCJuYmYiOjE2NzQwMzAwNDguMjY0NjI2LCJleHAiOjE3MDU1NjYwNDYuMzExMjYzLCJzdWIiOiI2Iiwic2NvcGVzIjpbXX0.yOaHjztEXa8oYdcJOV4du9Gu0Eo6ZyXrZetevsngj4fqR4MQ1LEdSQsGeriTyQfzyQEEqEVnPhnHtG3fyzIpol4DTo8xDYNTzCWTYOQ3Vh3QwwKLhpbYyY9rCIRO1cG97qDnok1NTIrktTQpbTX-ZL-avfjWt6d4Lw1Yo7WNKswDl2BrMA1VrozwpnofQ3yjzRDB_giqCtqQae6y8zH6RCIIcBg2PUyRb0nKx-q8y6iLaA0v-f5AMaO8nHdj_bh-lXep_a_mvHMO46E1WyZhr3wGPjyZGx9UHBpMvX43yASZjiO2Z8UU6CUzw3ePOIMPF0oEimtTkJQDHzwNMZPObdvUJUBxmcyqwoTw-MEuyEk2I8-pruWvHMxVRwwtYXZbKDy3avdyQe1oSKVfAAYDFOs4KrIPGam2m7io_DSaKOmnxIrgAeA-9LV2fetzGgmDouvgJyXDIxWsa9uzmJ_2cKl8PkNCpXOTrx6XvAl9pCIkpy98JTBBmlm117SY2GJukQev2B_LYgVy6Gd5_43CTHRx9mbUHXI5PGWoAqFXv3lfXbd37leh3aDFCGNhrI4dHWq0teoxaLBKe2-UnuIhw5XYTHrc3R_PZosZsL58mTw7HQomWFEAdVF_ByX5yr-2Y2WTdZgAeqmI13GgriifQMD82Cz4VuNhjDtSniV0op4",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer wxxB2hvOvGq557nzazzKpjx82rTuiUb4g9lsg1bd  ",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "kelvin cosmas",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "kevo93mushy@gmail.com",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "1234",
+							"type": "default"
+						},
+						{
+							"key": "c_password",
+							"value": "1234",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "role",
+							"value": "admin",
+							"type": "default",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/favourite",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"favourite"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer wxxB2hvOvGq557nzazzKpjx82rTuiUb4g9lsg1bd  ",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "kelvin cosmas",
+							"type": "default"
+						},
+						{
+							"key": "email",
+							"value": "kevo93mushyy@gmail.com",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "1234",
+							"type": "default"
+						},
+						{
+							"key": "c_password",
+							"value": "1234",
+							"type": "default"
+						},
+						{
+							"key": "role",
+							"value": "admin",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer wxxB2hvOvGq557nzazzKpjx82rTuiUb4g9lsg1bd  ",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "kelvin cosmas",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "kevo93mushy@gmail.com",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "1234",
+							"type": "default"
+						},
+						{
+							"key": "c_password",
+							"value": "1234",
+							"type": "default",
+							"disabled": true
+						},
+						{
+							"key": "role",
+							"value": "admin",
+							"type": "default",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
